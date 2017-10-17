@@ -1,0 +1,13 @@
+{
+    "cordova-plugin-camera": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-camera@^2.4.1"
+        },
+        "is_top_level": true,
+        "variables": {
+            "CAMERA_USAGE_DESCRIPTION": "To take a photo or video, we need to access your camera.",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": "To save your photo/video we need to access your photo library."
+        }
+    }
+}
