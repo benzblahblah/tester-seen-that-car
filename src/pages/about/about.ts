@@ -30,6 +30,7 @@ export class AboutPage {
                 quality: 100,
                 destinationType: this.camera.DestinationType.DATA_URL,
                 encodingType: this.camera.EncodingType.JPEG,
+                saveToPhotoAlbum: true,
                 mediaType: this.camera.MediaType.PICTURE
               }
 
