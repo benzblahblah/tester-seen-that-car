@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "/Users/ntkbb/Desktop/workspace/17-oct-2017/17.30/node_modules"
+      "/Users/ntkbb/Desktop/workspace/18-oct-2017/20.52-testwww/abc"
     ]
   ],
   "_from": "cordova-plugin-camera@latest",
@@ -45,7 +45,7 @@
   "_shasum": "195e34e12db64f1c49e764f7d4e3f261aa3d94c1",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-camera",
-  "_where": "/Users/ntkbb/Desktop/workspace/17-oct-2017/17.30/node_modules",
+  "_where": "/Users/ntkbb/Desktop/workspace/18-oct-2017/20.52-testwww/abc",
   "author": {
     "name": "Apache Software Foundation"
   },
