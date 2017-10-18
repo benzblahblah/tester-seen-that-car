@@ -17,7 +17,7 @@ Demo: https://creator.ionic.io/share/7bdddc4c1e7f
  $ mkdir repo
  $ cd repo
  $ git clone https://github.com/benzblahblah/tester-seen-that-car.git
- $ cd seen-that-car
+ $ cd tester-seen-that-car
  $ npm install
  $ ionic serve
 ```
