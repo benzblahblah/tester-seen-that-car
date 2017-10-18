@@ -8,5 +8,7 @@
 
 <ion-content padding>
     <button ion-button color="primary" block (click)="doConfirm()">Open Camera</button>
-
+    <ion-card *ngIf="photo">
+        <img [src]="photo" />
+    </ion-card>
 </ion-content>
