@@ -1,17 +1,18 @@
-import { Camera } from '@ionic-native/camera';
-import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
-import { TabsPage } from '../pages/tabs/tabs';
-
+import { ExplorePage } from '../pages/explore/explore';
+import { FriendsPage } from '../pages/friends/friends';
+import { LoginPage } from '../pages/login/login';
+import { GaragePage } from '../pages/garage/garage';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = TabsPage;
+  @ViewChild(Nav) navCtrl: Nav;
+    rootPage:any = LoginPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
@@ -20,5 +21,18 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
     });
+  }
+  goToLogin(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(LoginPage);
+  }goToExplore(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(ExplorePage);
+  }goToFriends(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(FriendsPage);
+  }goToGarage(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(GaragePage);
   }
 }
