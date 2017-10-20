@@ -13,6 +13,9 @@ import { CapturePage } from '../pages/capture/capture';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Camera } from '@ionic-native/camera';
+import { ContactPage } from '../pages/contact/contact';
+import { AboutPage } from '../pages/about/about';
+import { HomePage } from '../pages/home/home';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { Camera } from '@ionic-native/camera';
     GaragePage,
     LoginPage,
     FilteringPage,
+    ContactPage,
+    HomePage,
+    AboutPage,
     CapturePage
   ],
   imports: [
@@ -40,6 +46,9 @@ import { Camera } from '@ionic-native/camera';
     GaragePage,
     LoginPage,
     FilteringPage,
+    ContactPage,
+    HomePage,
+    AboutPage,
     CapturePage
   ],
   providers: [
