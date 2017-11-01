@@ -73,9 +73,12 @@ description of the vehicle prior to post submission. To use the application, use
 
 ## Features Progress:
 ### Camera
- * Open Camera
- * Allow to access into the libary [ios platform]
- * Tap for photo
+ ~~* Open Camera~~
+ 
+ ~~* Allow to access into the libary [ios platform]~~
+ 
+ ~~* Tap for photo~~
+ 
  * Hold for video
  * Allow user to fill the information via form
  ### Explore
@@ -90,7 +93,8 @@ description of the vehicle prior to post submission. To use the application, use
  * Sign out
   (via Facebook, and common Email)
  ### My Profile
- * Garage [only READ now]
+ ~~* Garage [only READ now]~~
+ 
  * Live comment
  * Like/Dislike
  ### CRUD Operation
