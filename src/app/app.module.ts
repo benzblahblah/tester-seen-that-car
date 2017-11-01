@@ -5,9 +5,7 @@ import { MyApp } from './app.component';
 import { FriendsPage } from '../pages/friends/friends';
 import { ExplorePage } from '../pages/explore/explore';
 import { ProfilePage } from '../pages/profile/profile';
-import { TabsControllerPage } from '../pages/tabs-controller/tabs-controller';
 import { GaragePage } from '../pages/garage/garage';
-import { LoginPage } from '../pages/login/login';
 import { FilteringPage } from '../pages/filtering/filtering';
 import { CapturePage } from '../pages/capture/capture';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,16 +14,16 @@ import { Camera } from '@ionic-native/camera';
 import { ContactPage } from '../pages/contact/contact';
 import { AboutPage } from '../pages/about/about';
 import { HomePage } from '../pages/home/home';
+import { LoginPage } from '../pages/login/login';
 
 @NgModule({
   declarations: [
     MyApp,
+    LoginPage,
     FriendsPage,
     ExplorePage,
     ProfilePage,
-    TabsControllerPage,
     GaragePage,
-    LoginPage,
     FilteringPage,
     ContactPage,
     HomePage,
@@ -39,12 +37,11 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    LoginPage,
     FriendsPage,
     ExplorePage,
     ProfilePage,
-    TabsControllerPage,
     GaragePage,
-    LoginPage,
     FilteringPage,
     ContactPage,
     HomePage,

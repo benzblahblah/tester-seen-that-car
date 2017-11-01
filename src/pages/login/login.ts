@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { ExplorePage } from '../explore/explore';
 
 @Component({
   selector: 'page-login',
@@ -8,10 +7,19 @@ import { ExplorePage } from '../explore/explore';
 })
 export class LoginPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController) { }
+
+  doLogin() {
+    this.navCtrl.setRoot('MenuPage');
+    // this.navCtrl.setRoot('TabsPage');    
   }
-  goToExplore(params){
-    if (!params) params = {};
-    this.navCtrl.push(ExplorePage);
+
+  // goToExplore(params){
+  //   if (!params) params = {};
+  //   this.navCtrl.push(ExplorePage);
+  // }
+
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad LoginPage');
   }
 }

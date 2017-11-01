@@ -10,27 +10,27 @@
     "cordova-plugin-camera": {
       "CAMERA_USAGE_DESCRIPTION": " ",
       "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "come.ben.blahblah"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "come.ben.blahblah"
     },
     "cordova-plugin-ionic-webview": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "come.ben.blahblah"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-compat": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "come.ben.blahblah"
     }
   }
 }

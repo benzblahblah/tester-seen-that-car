@@ -1,24 +1,28 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
+    <ion-navbar>
+        <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>
-      Capture
-    </ion-title>
-  </ion-navbar>
+        <ion-title>
+            Capture
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 <ion-content padding id="page8">
-  <div class="spacer" style="height:50px;" id="capture-spacer5"></div>
-  <button id="capture-button9" ion-button clear color="positive" block>
+    <div class="spacer" style="height:50px;" id="capture-spacer5"></div>
+    <button id="capture-button9" ion-button clear color="positive" block>
     <ion-icon name="car"></ion-icon>
   </button>
-  <h5 id="capture-heading2" style="color:#000000;text-align:center;">
-    Take some cars here!
-  </h5>
-  <div class="spacer" style="height:50px;" id="capture-spacer6"></div>
-  <button id="capture-button8" ion-button color="positive" block icon-left>
+    <h5 id="capture-heading2" style="color:#000000;text-align:center;">
+        Take some cars here!
+    </h5>
+    <div class="spacer" style="height:50px;" id="capture-spacer6"></div>
+
+    <button id="capture-button8" ion-button color="primary" block icon-left (click)="doConfirm()"> <ion-icon name="camera"></ion-icon> Tap for photo or hold for video.</button>
+
+    <!-- <button id="capture-button8" ion-button color="positive" block icon-left>
     <ion-icon name="camera"></ion-icon>
     Tap for photo or hold for video.
-  </button>
+  </button> -->
+
 </ion-content>
