@@ -67,31 +67,30 @@ description of the vehicle prior to post submission. To use the application, use
 
 
 ## Known issues and bugs:
-[Fixed] ~~* Camera function can work on Android but not in iOS yet~~ 
-[Fixed] ~~* User Interface Design from Creator Ionic Version 1 was not compatible with the ionicframework version 3.x +~~
+[FIXED BUG]~~* Camera function can work on Android but not in iOS yet~~
+
+[FIXED BUG]~~* User Interface Design from Creator Ionic Version 1 was not compatible with the ionicframework version 3.x +~~
 
 ## Features Progress:
-   * Camera
-     ~~- Open Camera~~
-     ~~- Allow to access into the libary [ios platform]~~
-     ~~- Tap for photo~~
-     ~~- Hold for video~~
-     - Allow user to fill the information via form
-   * Explore
-     - Feeds
-     - Friends
-   * Search
-     - Feeds
-     - History
-   * Authentication
-     - Sign up
-     - Sign in
-     - Sign out
-     (via Facebook, and common Email)
-   * My Profile
-     ~~- Garage [only READ now]~~
-     - Live comment
-     - Like/Dislike
-   * Create/Read/Update/Delete
-
-
+### Camera
+ * Open Camera
+ * Allow to access into the libary [ios platform]
+ * Tap for photo
+ * Hold for video
+ * Allow user to fill the information via form
+ ### Explore
+ * Feeds
+ * Friends
+ ### Search
+ * Feeds
+ * History
+ ### Authentication
+ * Sign up
+ * Sign in
+ * Sign out
+  (via Facebook, and common Email)
+ ### My Profile
+ * Garage [only READ now]
+ * Live comment
+ * Like/Dislike
+ ### CRUD Operation
