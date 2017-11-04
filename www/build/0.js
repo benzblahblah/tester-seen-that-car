@@ -1,1 +1,95 @@
-webpackJsonp([0],{235:function(l,n,a){"use strict";function t(l){return r._24(0,[(l()(),r._4(0,null,null,1,"ion-icon",[["class","tab-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r._2(147456,null,0,B.a,[R.a,r.k,r.C],{name:[0,"name"],isActive:[1,"isActive"]},null)],function(l,n){var a=n.component;l(n,1,0,a.tab.tabIcon,a.tab.isSelected)},function(l,n){l(n,0,0,r._18(n,1)._hidden)})}function e(l){return r._24(0,[(l()(),r._4(0,null,null,1,"span",[["class","tab-button-text"]],null,null,null,null,null)),(l()(),r._23(null,["",""]))],null,function(l,n){l(n,1,0,n.component.tab.tabTitle)})}function u(l){return r._24(0,[(l()(),r._4(0,null,null,2,"ion-badge",[["class","tab-badge"]],null,null,null,null,null)),r._2(16384,null,0,H.a,[R.a,r.k,r.C],{color:[0,"color"]},null),(l()(),r._23(null,["",""]))],function(l,n){l(n,1,0,n.component.tab.tabBadgeStyle)},function(l,n){l(n,2,0,n.component.tab.tabBadge)})}function o(l){return r._24(0,[(l()(),r.Y(16777216,null,null,1,null,t)),r._2(16384,null,0,M.i,[r.M,r.I],{ngIf:[0,"ngIf"]},null),(l()(),r.Y(16777216,null,null,1,null,e)),r._2(16384,null,0,M.i,[r.M,r.I],{ngIf:[0,"ngIf"]},null),(l()(),r.Y(16777216,null,null,1,null,u)),r._2(16384,null,0,M.i,[r.M,r.I],{ngIf:[0,"ngIf"]},null),(l()(),r._4(0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],function(l,n){var a=n.component;l(n,1,0,a.tab.tabIcon),l(n,3,0,a.tab.tabTitle),l(n,5,0,a.tab.tabBadge)},null)}function i(l){return r._24(0,[(l()(),r._4(0,null,null,1,"a",[["class","tab-button"],["href","#"],["role","tab"]],[[1,"id",0],[1,"aria-controls",0],[1,"aria-selected",0],[2,"has-title",null],[2,"has-icon",null],[2,"has-title-only",null],[2,"icon-only",null],[2,"has-badge",null],[2,"disable-hover",null],[2,"tab-disabled",null],[2,"tab-hidden",null]],[[null,"ionSelect"],[null,"click"]],function(l,n,a){var t=!0,e=l.component;return"click"===n&&(t=!1!==r._18(l,1).onClick()&&t),"ionSelect"===n&&(t=!1!==e.select(l.context.$implicit)&&t),t},o,L)),r._2(114688,null,0,E.a,[R.a,r.k,r.C],{tab:[0,"tab"]},{ionSelect:"ionSelect"})],function(l,n){l(n,1,0,n.context.$implicit)},function(l,n){l(n,0,1,[r._18(n,1).tab._btnId,r._18(n,1).tab._tabId,r._18(n,1).tab.isSelected,r._18(n,1).hasTitle,r._18(n,1).hasIcon,r._18(n,1).hasTitleOnly,r._18(n,1).hasIconOnly,r._18(n,1).hasBadge,r._18(n,1).disHover,!r._18(n,1).tab.enabled,!r._18(n,1).tab.show])})}function b(l){return r._24(0,[r._21(402653184,1,{_highlight:0}),r._21(402653184,2,{_tabbar:0}),r._21(402653184,3,{portal:0}),(l()(),r._4(0,[[2,0],["tabbar",1]],null,4,"div",[["class","tabbar"],["role","tablist"]],null,null,null,null,null)),(l()(),r.Y(16777216,null,null,1,null,i)),r._2(802816,null,0,M.h,[r.M,r.I,r.q],{ngForOf:[0,"ngForOf"]},null),(l()(),r._4(0,null,null,1,"div",[["class","tab-highlight"]],null,null,null,null,null)),r._2(16384,[[1,4]],0,Y.a,[r.k,Z.a],null,null),r._17(null,0),(l()(),r._4(16777216,[[3,3],["portal",1]],null,0,"div",[["tab-portal",""]],null,null,null,null,null))],function(l,n){l(n,5,0,n.component._tabs)},null)}function c(l){return r._24(0,[r._21(402653184,1,{_vp:0}),(l()(),r._4(16777216,[[1,3],["viewport",1]],null,0,"div",[],null,null,null,null,null)),(l()(),r._4(0,null,null,0,"div",[["class","nav-decor"]],null,null,null,null,null))],null,null)}function _(l){return r._24(0,[(l()(),r._4(0,null,null,15,"ion-tabs",[],null,null,null,b,J)),r._20(6144,null,U.a,null,[F.a]),r._2(4374528,null,0,F.a,[[2,A.a],[2,D.a],G.a,R.a,r.k,V.a,r.C,$.a,q.a],{selectedIndex:[0,"selectedIndex"]},null),(l()(),r._23(0,["\n    "])),(l()(),r._4(0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","ios-search"],["tabTitle","Explore"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,c,K)),r._2(245760,null,0,N.a,[F.a,G.a,R.a,V.a,r.k,r.w,r.C,r.j,r.g,W.l,z.a,[2,$.a],Z.a,r.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),r._23(0,["\n    "])),(l()(),r._4(0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","ios-camera"],["tabTitle","Camera"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,c,K)),r._2(245760,null,0,N.a,[F.a,G.a,R.a,V.a,r.k,r.w,r.C,r.j,r.g,W.l,z.a,[2,$.a],Z.a,r.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),r._23(0,["\n    "])),(l()(),r._4(0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","ios-car"],["tabTitle","Garage"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,c,K)),r._2(245760,null,0,N.a,[F.a,G.a,R.a,V.a,r.k,r.w,r.C,r.j,r.g,W.l,z.a,[2,$.a],Z.a,r.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),r._23(0,["\n    "])),(l()(),r._4(0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","ios-person"],["tabTitle","Profile"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,c,K)),r._2(245760,null,0,N.a,[F.a,G.a,R.a,V.a,r.k,r.w,r.C,r.j,r.g,W.l,z.a,[2,$.a],Z.a,r.l],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),r._23(0,["\n"]))],function(l,n){var a=n.component;l(n,2,0,a.myIndex);l(n,5,0,a.tab1Root,"Explore","ios-search");l(n,8,0,a.tab2Root,"Camera","ios-camera");l(n,11,0,a.tab3Root,"Garage","ios-car");l(n,14,0,a.tab4Root,"Profile","ios-person")},function(l,n){l(n,4,0,r._18(n,5)._tabId,r._18(n,5)._btnId),l(n,7,0,r._18(n,8)._tabId,r._18(n,8)._btnId),l(n,10,0,r._18(n,11)._tabId,r._18(n,11)._btnId),l(n,13,0,r._18(n,14)._tabId,r._18(n,14)._btnId)})}Object.defineProperty(n,"__esModule",{value:!0});var r=a(0),s=a(4),d=a(24),f=a(137),h=a(92),I=a(93),g=a(138),p=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.tab1Root=I.a,this.tab2Root=f.a,this.tab3Root=h.a,this.tab4Root=g.a,this.myIndex=n.data.tabIndex||0}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad TabsPage")},l}();p=Object(s.__decorate)([Object(r.i)({selector:"page-tabs",templateUrl:"tabs.html"}),Object(s.__metadata)("design:paramtypes",["function"==typeof(m=void 0!==d.h&&d.h)&&m||Object,"function"==typeof(v=void 0!==d.i&&d.i)&&v||Object])],p);var m,v,y=function(){return function(){}}();y=Object(s.__decorate)([Object(r.t)({declarations:[p],imports:[d.f.forChild(p)]})],y);var k=a(192),T=a(193),C=a(194),j=a(195),O=a(196),S=a(197),w=a(198),P=a(199),x=a(200),B=a(26),R=a(1),H=a(135),M=a(17),E=a(134),L=r._1({encapsulation:2,styles:[],data:{}}),Y=(r.Z(".tab-button",E.a,function(l){return r._24(0,[(l()(),r._4(0,null,null,1,"div",[["class","tab-button"]],[[1,"id",0],[1,"aria-controls",0],[1,"aria-selected",0],[2,"has-title",null],[2,"has-icon",null],[2,"has-title-only",null],[2,"icon-only",null],[2,"has-badge",null],[2,"disable-hover",null],[2,"tab-disabled",null],[2,"tab-hidden",null]],[[null,"click"]],function(l,n,a){var t=!0;return"click"===n&&(t=!1!==r._18(l,1).onClick()&&t),t},o,L)),r._2(114688,null,0,E.a,[R.a,r.k,r.C],null,null)],function(l,n){l(n,1,0)},function(l,n){l(n,0,1,[r._18(n,1).tab._btnId,r._18(n,1).tab._tabId,r._18(n,1).tab.isSelected,r._18(n,1).hasTitle,r._18(n,1).hasIcon,r._18(n,1).hasTitleOnly,r._18(n,1).hasIconOnly,r._18(n,1).hasBadge,r._18(n,1).disHover,!r._18(n,1).tab.enabled,!r._18(n,1).tab.show])})},{color:"color",mode:"mode",tab:"tab"},{ionSelect:"ionSelect"},[]),a(91)),Z=a(7),F=a(90),U=a(47),A=a(11),D=a(5),G=a(6),V=a(3),$=a(19),q=a(18),J=r._1({encapsulation:2,styles:[],data:{}}),N=(r.Z("ion-tabs",F.a,function(l){return r._24(0,[(l()(),r._4(0,null,null,2,"ion-tabs",[],null,null,null,b,J)),r._20(6144,null,U.a,null,[F.a]),r._2(4374528,null,0,F.a,[[2,A.a],[2,D.a],G.a,R.a,r.k,V.a,r.C,$.a,q.a],null,null)],null,null)},{color:"color",mode:"mode",name:"name",selectedIndex:"selectedIndex",tabsLayout:"tabsLayout",tabsPlacement:"tabsPlacement",tabsHighlight:"tabsHighlight"},{ionChange:"ionChange"},["*"]),a(133)),W=a(8),z=a(39),K=r._1({encapsulation:2,styles:[],data:{}}),Q=(r.Z("ion-tab",N.a,function(l){return r._24(0,[(l()(),r._4(0,null,null,1,"ion-tab",[["role","tabpanel"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,c,K)),r._2(245760,null,0,N.a,[F.a,G.a,R.a,V.a,r.k,r.w,r.C,r.j,r.g,W.l,z.a,[2,$.a],Z.a,r.l],null,null)],function(l,n){l(n,1,0)},function(l,n){l(n,0,0,r._18(n,1)._tabId,r._18(n,1)._btnId)})},{color:"color",mode:"mode",swipeBackEnabled:"swipeBackEnabled",root:"root",rootParams:"rootParams",tabUrlPath:"tabUrlPath",tabTitle:"tabTitle",tabIcon:"tabIcon",tabBadge:"tabBadge",tabBadgeStyle:"tabBadgeStyle",enabled:"enabled",show:"show",tabsHideOnSubPages:"tabsHideOnSubPages"},{ionSelect:"ionSelect"},[]),a(15)),X=r._1({encapsulation:2,styles:[],data:{}}),ll=r.Z("page-tabs",p,function(l){return r._24(0,[(l()(),r._4(0,null,null,1,"page-tabs",[],null,null,null,_,X)),r._2(49152,null,0,p,[A.a,Q.a],null,null)],null,null)},{},{},[]),nl=a(16),al=a(131),tl=a(51);a.d(n,"TabsPageModuleNgFactory",function(){return el});var el=r._0(y,[],function(l){return r._15([r._16(512,r.j,r.W,[[8,[k.a,T.a,C.a,j.a,O.a,S.a,w.a,P.a,x.a,ll]],[3,r.j],r.u]),r._16(4608,M.k,M.j,[r.s]),r._16(4608,nl.o,nl.o,[]),r._16(4608,nl.d,nl.d,[]),r._16(512,M.b,M.b,[]),r._16(512,nl.m,nl.m,[]),r._16(512,nl.e,nl.e,[]),r._16(512,nl.l,nl.l,[]),r._16(512,al.a,al.a,[]),r._16(512,al.b,al.b,[]),r._16(512,y,y,[]),r._16(256,tl.a,p,[])])})}});
+webpackJsonp([0],{
+
+/***/ 277:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsPageModule", function() { return TabsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs__ = __webpack_require__(285);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var TabsPageModule = (function () {
+    function TabsPageModule() {
+    }
+    return TabsPageModule;
+}());
+TabsPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__tabs__["a" /* TabsPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tabs__["a" /* TabsPage */]),
+        ],
+    })
+], TabsPageModule);
+
+//# sourceMappingURL=tabs.module.js.map
+
+/***/ }),
+
+/***/ 285:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__capture_capture__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__garage_garage__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__explore_explore__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__profile_profile__ = __webpack_require__(279);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var TabsPage = (function () {
+    function TabsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.tab1Root = __WEBPACK_IMPORTED_MODULE_4__explore_explore__["a" /* ExplorePage */];
+        this.tab2Root = __WEBPACK_IMPORTED_MODULE_2__capture_capture__["a" /* CapturePage */];
+        this.tab3Root = __WEBPACK_IMPORTED_MODULE_3__garage_garage__["a" /* GaragePage */];
+        this.tab4Root = __WEBPACK_IMPORTED_MODULE_5__profile_profile__["a" /* ProfilePage */];
+        // Set the active tab based on the passed index from menu.ts
+        this.myIndex = navParams.data.tabIndex || 0;
+    }
+    TabsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad TabsPage');
+    };
+    return TabsPage;
+}());
+TabsPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-tabs',template:/*ion-inline-start:"/Users/ntkbb/Desktop/ASM2/tester-seen-that-car-master-v3/src/pages/tabs/tabs.html"*/'<ion-tabs [selectedIndex]="myIndex">\n    <ion-tab [root]="tab1Root" tabTitle="Explore" tabIcon="ios-search"></ion-tab>\n    <ion-tab [root]="tab2Root" tabTitle="Camera" tabIcon="ios-camera"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="Garage" tabIcon="ios-car"></ion-tab>\n    <ion-tab [root]="tab4Root" tabTitle="Profile" tabIcon="ios-person"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/Users/ntkbb/Desktop/ASM2/tester-seen-that-car-master-v3/src/pages/tabs/tabs.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], TabsPage);
+
+//# sourceMappingURL=tabs.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=0.js.map

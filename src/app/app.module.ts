@@ -2,33 +2,32 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { FriendsPage } from '../pages/friends/friends';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { Camera } from '@ionic-native/camera';
+import { HomePage } from '../pages/home/home';
+import { LoginPage } from '../pages/login/login';
 import { ExplorePage } from '../pages/explore/explore';
 import { ProfilePage } from '../pages/profile/profile';
 import { GaragePage } from '../pages/garage/garage';
 import { FilteringPage } from '../pages/filtering/filtering';
 import { CapturePage } from '../pages/capture/capture';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { Camera } from '@ionic-native/camera';
-import { ContactPage } from '../pages/contact/contact';
-import { AboutPage } from '../pages/about/about';
-import { HomePage } from '../pages/home/home';
-import { LoginPage } from '../pages/login/login';
+// import { ContactPage } from '../pages/contact/contact';
+// import { FriendsPage } from '../pages/friends/friends';
+
 
 @NgModule({
   declarations: [
     MyApp,
     LoginPage,
-    FriendsPage,
+    HomePage,
     ExplorePage,
     ProfilePage,
     GaragePage,
     FilteringPage,
-    ContactPage,
-    HomePage,
-    AboutPage,
-    CapturePage
+    CapturePage,
+    // ContactPage,
+    // FriendsPage,
   ],
   imports: [
     BrowserModule,
@@ -38,15 +37,14 @@ import { LoginPage } from '../pages/login/login';
   entryComponents: [
     MyApp,
     LoginPage,
-    FriendsPage,
+    HomePage,
     ExplorePage,
     ProfilePage,
     GaragePage,
     FilteringPage,
-    ContactPage,
-    HomePage,
-    AboutPage,
-    CapturePage
+    CapturePage,
+    // ContactPage,
+    // FriendsPage,
   ],
   providers: [
     StatusBar,

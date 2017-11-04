@@ -30,12 +30,13 @@ export class MenuPage {
 
   pages: PageInterface[] = [
     { title: 'Explore', pageName: 'TabsPage', tabComponent: 'ExplorePage', index: 0, icon: 'ios-search' },
-    { title: 'Camera', pageName: 'TabsPage', tabComponent: 'CapturePage', index: 1, icon: 'ios-camera' },
-    { title: 'Garage', pageName: 'TabsPage', tabComponent: 'GaragePage', index: 2, icon: 'ios-car' },
-    { title: 'Profile', pageName: 'TabsPage', tabComponent: 'ProfilePage', index: 3, icon: 'ios-person' },
-    { title: 'Friends', pageName: 'TabsPage', tabComponent: 'FriendsPage', index: 4, icon: 'ios-search' },
+    // { title: 'Camera', pageName: 'TabsPage', tabComponent: 'CapturePage', index: 1, icon: 'ios-camera' },
+    // { title: 'Garage', pageName: 'TabsPage', tabComponent: 'GaragePage', index: 2, icon: 'ios-car' },
+    // { title: 'Profile', pageName: 'TabsPage', tabComponent: 'ProfilePage', index: 3, icon: 'ios-person' },
+    { title: 'Friends', pageName: 'FriendsPage', icon: 'ios-people' },
     { title: 'Logout', pageName: 'LogoutPage', icon: 'ios-log-out' },
     { title: 'Special', pageName: 'SpecialPage', icon: 'shuffle' },
+    
   ];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) { }
@@ -46,6 +47,7 @@ export class MenuPage {
     // The index is equal to the order of our tabs inside tabs.ts
     if (page.index) {
       params = { tabIndex: page.index };
+      console.log('page-index: '+page.index)
     }
  
     // The active child nav is our Tabs Navigation
