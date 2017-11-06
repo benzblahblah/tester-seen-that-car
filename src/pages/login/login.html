@@ -1,8 +1,23 @@
+<!-- <ion-header>
+    <ion-navbar>
+        <ion-title>
+            Auth with Ionic
+        </ion-title>
+    </ion-navbar>
+</ion-header> -->
+
+
 <ion-content padding id="page6">
     <div>
         <img src="assets/img/5QZinOvtSVi9Kj2ijF1G_iTunesArtwork.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
     </div>
-    <form id="login-form1">
+
+    <h5 text-align: center>Welcome, {{displayName}}</h5>
+    <button ion-button block text-align:center icon-left (click)="signInWithFacebook()">
+            <ion-icon name="logo-facebook"></ion-icon> Login via Facebook
+        </button>
+
+    <!-- <form id="login-form1">
         <div class="spacer" style="height:40px;" id="login-spacer1"></div>
         <ion-list id="login-list8">
             <ion-item id="login-input1">
@@ -18,12 +33,6 @@
                 <ion-input type="password" placeholder=""></ion-input>
             </ion-item>
         </ion-list>
+    </form> -->
 
-        <!-- <button id="login-button5" ion-button color="calm" block on-click="goToExplore()">
-    Log in
-  </button> -->
-
-        <button ion-button full (click)="doLogin()">Login</button>
-
-    </form>
 </ion-content>

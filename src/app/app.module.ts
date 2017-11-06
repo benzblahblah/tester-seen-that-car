@@ -12,9 +12,14 @@ import { ProfilePage } from '../pages/profile/profile';
 import { GaragePage } from '../pages/garage/garage';
 import { FilteringPage } from '../pages/filtering/filtering';
 import { CapturePage } from '../pages/capture/capture';
-// import { ContactPage } from '../pages/contact/contact';
-// import { FriendsPage } from '../pages/friends/friends';
 
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule, AngularFireDatabase } from 'angularfire2/database';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { environments } from "../environments/environments";
+
+import { AuthService } from '../services/auth/auth';
+import { IonicStorageModule } from "@ionic/storage";
 
 @NgModule({
   declarations: [
@@ -31,7 +36,11 @@ import { CapturePage } from '../pages/capture/capture';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(environments.firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -50,7 +59,9 @@ import { CapturePage } from '../pages/capture/capture';
     StatusBar,
     SplashScreen,
     Camera,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    AngularFireDatabase,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AuthService
   ]
 })
 export class AppModule {}

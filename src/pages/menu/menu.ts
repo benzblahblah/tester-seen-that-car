@@ -1,5 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
-import { IonicPage, NavController, NavParams, Nav } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Nav, App } from 'ionic-angular';
+import { AngularFireAuth } from 'angularfire2/auth';
+import { LoginPage } from '../login/login';
+import { AuthService } from './../../services/auth/auth';
 
 // import { ExplorePage } from './../explore/explore';
 // import { CapturePage } from './../capture/capture';
@@ -34,12 +37,16 @@ export class MenuPage {
     // { title: 'Garage', pageName: 'TabsPage', tabComponent: 'GaragePage', index: 2, icon: 'ios-car' },
     // { title: 'Profile', pageName: 'TabsPage', tabComponent: 'ProfilePage', index: 3, icon: 'ios-person' },
     { title: 'Friends', pageName: 'FriendsPage', icon: 'ios-people' },
-    { title: 'Logout', pageName: 'LogoutPage', icon: 'ios-log-out' },
-    { title: 'Special', pageName: 'SpecialPage', icon: 'shuffle' },
+    { title: 'Logout', pageName: 'TabsPage', index: 99, icon: 'ios-log-out' },
+    // { title: 'Special', pageName: 'SpecialPage', icon: 'shuffle' },
     
   ];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) { }
+  constructor(public navCtrl: NavController,
+    public navParams: NavParams,
+    private afAuth: AngularFireAuth,
+    public app: App,
+    public auth: AuthService) { }
 
   openPage(page: PageInterface) {
     let params = {};
@@ -48,6 +55,10 @@ export class MenuPage {
     if (page.index) {
       params = { tabIndex: page.index };
       console.log('page-index: '+page.index)
+    }
+
+    if (page.index == 99) {
+      this.signOut();
     }
  
     // The active child nav is our Tabs Navigation
@@ -76,6 +87,21 @@ export class MenuPage {
       return 'primary';
     }
     return;
+  }
+
+  signOut() {
+    this.afAuth.auth.signOut()
+    .then(result => console.log("Sign-out",result))
+    .catch(error => console.log("Error Sing-out",error));
+    // this.navCtrl.setRoot('LoginPage');
+    this.app.getRootNav().setRoot(LoginPage);
+    // this.app.getRootNav()[0].setRoot(LoginPage);
+    console.log('Pressed/Done Function SignOut');
+  }
+
+  logout() {
+    console.log('home.ts logout');
+    this.auth.logout();
   }
 
   ionViewDidLoad() {
