@@ -16,7 +16,6 @@ import { AuthService } from './../services/auth/auth';
 export class MyApp {
   @ViewChild(Nav) navCtrl: Nav;
     rootPage:any = LoginPage;
-    // rootPage:any = TabsControllerPage;
 
   constructor(platform: Platform,
     statusBar: StatusBar,
