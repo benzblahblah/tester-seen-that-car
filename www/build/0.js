@@ -1,1 +1,81 @@
-webpackJsonp([0],{688:function(a,_,e){"use strict";Object.defineProperty(_,"__esModule",{value:!0}),e.d(_,"TabsPageModuleNgFactory",function(){return m});var t=e(0),n=e(217),o=e(338),r=e(339),u=e(340),b=e(341),c=e(342),d=e(343),i=e(344),l=e(345),s=e(346),f=e(353),j=e(18),p=e(28),v=e(208),g=e(74),k=e(218),m=t._1(n.a,[],function(a){return t._16([t._17(512,t.j,t.X,[[8,[o.a,r.a,u.a,b.a,c.a,d.a,i.a,l.a,s.a,f.a]],[3,t.j],t.v]),t._17(4608,j.k,j.j,[t.t]),t._17(4608,p.o,p.o,[]),t._17(4608,p.d,p.d,[]),t._17(512,j.b,j.b,[]),t._17(512,p.m,p.m,[]),t._17(512,p.e,p.e,[]),t._17(512,p.l,p.l,[]),t._17(512,v.a,v.a,[]),t._17(512,v.b,v.b,[]),t._17(512,n.a,n.a,[]),t._17(256,g.a,k.a,[])])})}});
+webpackJsonp([0],{
+
+/***/ 729:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpecialPageModule", function() { return SpecialPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__special__ = __webpack_require__(732);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var SpecialPageModule = (function () {
+    function SpecialPageModule() {
+    }
+    return SpecialPageModule;
+}());
+SpecialPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__special__["a" /* SpecialPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__special__["a" /* SpecialPage */]),
+        ],
+    })
+], SpecialPageModule);
+
+//# sourceMappingURL=special.module.js.map
+
+/***/ }),
+
+/***/ 732:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpecialPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var SpecialPage = (function () {
+    function SpecialPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    SpecialPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SpecialPage');
+    };
+    return SpecialPage;
+}());
+SpecialPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-special',template:/*ion-inline-start:"/Users/ntkbb/Desktop/ASM2/devs/src/pages/special/special.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-buttons start>\n            <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n        </ion-buttons>\n        <ion-title>Special</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    This page has no tabs!\n    <!-- <button ion-button color="danger" block icon-left (click)="doLogout()"> <ion-icon name="ios-log-out"></ion-icon>Logout</button> -->\n</ion-content>'/*ion-inline-end:"/Users/ntkbb/Desktop/ASM2/devs/src/pages/special/special.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+], SpecialPage);
+
+//# sourceMappingURL=special.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=0.js.map

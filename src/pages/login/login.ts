@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, Platform } from 'ionic-angular';
 
 import { AngularFireDatabase } from 'angularfire2/database';
 import { AngularFireAuth } from 'angularfire2/auth';
@@ -20,10 +20,39 @@ export class LoginPage {
     public navCtrl: NavController, 
     private afDB: AngularFireDatabase, 
     private afAuth: AngularFireAuth,
-    public auth: AuthService
+    public auth: AuthService,
+    private platform: Platform 
   ) {
     console.log("LoginPage");
     this.userAuth();
+  }
+
+  login(provider)
+  {
+    let signInProvider = null;
+
+    switch (provider) {
+      case "facebook":
+        signInProvider = new firebase.auth.FacebookAuthProvider();
+        break;
+      case "google":
+        signInProvider = new firebase.auth.GoogleAuthProvider();
+        break;
+    }
+
+    if (this.platform.is('cordova')){
+      this.afAuth.auth.signInWithRedirect(signInProvider)
+      .then(() => {
+        this.afAuth.auth.getRedirectResult()
+        .then(result => console.log("Logged-in with "+provider,result))
+        .catch(error => console.log("Error Sing-in with "+provider,error));
+      });
+    }else{
+      this.afAuth.auth.signInWithPopup(signInProvider)
+      .then(result => console.log("Logged-in with "+provider,result))
+      .catch(error => console.log("Error Sing-in with "+provider,error));
+    }
+
   }
 
   userAuth(){
@@ -51,14 +80,7 @@ export class LoginPage {
     this.afAuth.auth
       .signInWithPopup(new firebase.auth.FacebookAuthProvider())
       .then(res => console.log(res));    
-  }
-
-  // signOut() {
-  //   this.afAuth.auth.signOut()
-  //   .then(result => console.log("Sign-out",result))
-  //   .catch(error => console.log("Error Sing-out",error));
-  //   this.navCtrl.setRoot('LoginPage');
-  // }
+  } 
 
   createUser(){
     const dbUserRef = this.afDB.object('Users/'+this.user.uid);
@@ -79,11 +101,6 @@ export class LoginPage {
       sub.unsubscribe();
     });
   }
-
-  // goToExplore(params){
-  //   if (!params) params = {};
-  //   this.navCtrl.push(ExplorePage);
-  // }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad LoginPage');

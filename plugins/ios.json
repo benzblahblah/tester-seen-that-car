@@ -26,6 +26,22 @@
     },
     "ionic-plugin-keyboard": {
       "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "com.firebase.cordova",
+      "PACKAGE_NAME": "come.ben.blahblah"
     }
   },
   "dependent_plugins": {

@@ -1,10 +1,10 @@
-<!-- <ion-header>
+<ion-header>
     <ion-navbar>
         <ion-title>
-            Auth with Ionic
+            Authentication
         </ion-title>
     </ion-navbar>
-</ion-header> -->
+</ion-header>
 
 
 <ion-content padding id="page6">
@@ -12,10 +12,15 @@
         <img src="assets/img/5QZinOvtSVi9Kj2ijF1G_iTunesArtwork.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
     </div>
 
-    <h5 text-align: center>Welcome, {{displayName}}</h5>
-    <button ion-button block text-align:center icon-left (click)="signInWithFacebook()">
-            <ion-icon name="logo-facebook"></ion-icon> Login via Facebook
-        </button>
+    <h5>{{displayName}}</h5>
+    <!-- <button ion-button block text-align:center icon-left (click)="signInWithFacebook()"> -->
+    <button ion-button block text-align:center icon-left (click)="login('facebook')">
+        <ion-icon name="logo-facebook"></ion-icon> Login via Facebook
+    </button>
+
+    <button ion-button color="danger" block text-align:center icon-left (click)="login('google')">
+        <ion-icon name="logo-google"></ion-icon> Login via Google
+    </button>
 
     <!-- <form id="login-form1">
         <div class="spacer" style="height:40px;" id="login-spacer1"></div>
