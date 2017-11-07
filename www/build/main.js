@@ -1,6 +1,6 @@
 webpackJsonp([3],{
 
-/***/ 103:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ webpackJsonp([3],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase_app__ = __webpack_require__(238);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase_app___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_firebase_app__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_auth_auth__ = __webpack_require__(93);
@@ -113,7 +113,7 @@ var LoginPage = (function () {
 }());
 LoginPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-login',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\login\login.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>\n\n            Authentication\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding id="page6">\n\n    <div>\n\n        <img src="assets/img/5QZinOvtSVi9Kj2ijF1G_iTunesArtwork.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n\n    </div>\n\n\n\n    <h5>{{displayName}}</h5>\n\n    <!-- <button ion-button block text-align:center icon-left (click)="signInWithFacebook()"> -->\n\n    <button ion-button block text-align:center icon-left (click)="login(\'facebook\')">\n\n        <ion-icon name="logo-facebook"></ion-icon> Login via Facebook\n\n    </button>\n\n\n\n    <button ion-button color="danger" block text-align:center icon-left (click)="login(\'google\')">\n\n        <ion-icon name="logo-google"></ion-icon> Login via Google\n\n    </button>\n\n\n\n    <!-- <form id="login-form1">\n\n        <div class="spacer" style="height:40px;" id="login-spacer1"></div>\n\n        <ion-list id="login-list8">\n\n            <ion-item id="login-input1">\n\n                <ion-label>\n\n                    Email\n\n                </ion-label>\n\n                <ion-input type="email" placeholder="justclicklogin"></ion-input>\n\n            </ion-item>\n\n            <ion-item id="login-input2">\n\n                <ion-label>\n\n                    Password\n\n                </ion-label>\n\n                <ion-input type="password" placeholder=""></ion-input>\n\n            </ion-item>\n\n        </ion-list>\n\n    </form> -->\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\login\login.html"*/
+        selector: 'page-login',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/login/login.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Authentication\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n\n<ion-content padding id="page6">\n    <div>\n        <img src="assets/img/5QZinOvtSVi9Kj2ijF1G_iTunesArtwork.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n    </div>\n\n    <h5>{{displayName}}</h5>\n    <!-- <button ion-button block text-align:center icon-left (click)="signInWithFacebook()"> -->\n    <button ion-button block text-align:center icon-left (click)="login(\'facebook\')">\n        <ion-icon name="logo-facebook"></ion-icon> Login via Facebook\n    </button>\n\n    <button ion-button color="danger" block text-align:center icon-left (click)="login(\'google\')">\n        <ion-icon name="logo-google"></ion-icon> Login via Google\n    </button>\n\n    <!-- <form id="login-form1">\n        <div class="spacer" style="height:40px;" id="login-spacer1"></div>\n        <ion-list id="login-list8">\n            <ion-item id="login-input1">\n                <ion-label>\n                    Email\n                </ion-label>\n                <ion-input type="email" placeholder="justclicklogin"></ion-input>\n            </ion-item>\n            <ion-item id="login-input2">\n                <ion-label>\n                    Password\n                </ion-label>\n                <ion-input type="password" placeholder=""></ion-input>\n            </ion-item>\n        </ion-list>\n    </form> -->\n\n</ion-content>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/login/login.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
@@ -126,7 +126,7 @@ LoginPage = __decorate([
 
 /***/ }),
 
-/***/ 128:
+/***/ 129:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -162,7 +162,7 @@ var ExplorePage = (function () {
 }());
 ExplorePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-explore',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\explore\explore.html"*/'<!--\n\n  Generated template for the ExplorePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n    <ion-icon name="menu"></ion-icon>\n\n  </button>\n\n        <ion-title>\n\n            Explore\n\n        </ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only>\n\n      <ion-icon name="buffer"></ion-icon>\n\n    </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page3">\n\n    <ion-card *ngIf="photo">\n\n        <img [src]="photo" />\n\n    </ion-card>\n\n    <ion-list id="explore-list10">\n\n        <ion-searchbar placeholder="Search" name="" id="explore-search2"></ion-searchbar>\n\n        <ion-item color="none" id="explore-list-item19">\n\n            <ion-avatar item-left>\n\n                <img src="assets/img/vCM67rRyCGzbRxYbIkOQ_dave.jpg" />\n\n            </ion-avatar>\n\n            <h2>\n\n                Dave Pocoro\n\n            </h2>\n\n        </ion-item>\n\n    </ion-list>\n\n    <div>\n\n        <img src="assets/img/PKS9kU1dSxy4whILYvtT_bad-drivers-7.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n\n    </div>\n\n    <ion-list id="explore-list12">\n\n        <ion-item id="explore-list-item-container2">\n\n            <div id="explore-markdown2" class="show-list-numbers-and-dots">\n\n                <p style="margin-top:0px;color:#000000;">\n\n                    Check this, what just he did?\n\n                </p>\n\n            </div>\n\n        </ion-item>\n\n    </ion-list>\n\n    <h5 id="explore-heading1" style="color:#000000;font-weight:600;">\n\n        Loading data...\n\n    </h5>\n\n</ion-content>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\explore\explore.html"*/,
+        selector: 'page-explore',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/explore/explore.html"*/'<!--\n  Generated template for the ExplorePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n    <ion-icon name="menu"></ion-icon>\n  </button>\n        <ion-title>\n            Explore\n        </ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only>\n      <ion-icon name="buffer"></ion-icon>\n    </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content padding id="page3">\n    <ion-card *ngIf="photo">\n        <img [src]="photo" />\n    </ion-card>\n    <ion-list id="explore-list10">\n        <ion-searchbar placeholder="Search" name="" id="explore-search2"></ion-searchbar>\n        <ion-item color="none" id="explore-list-item19">\n            <ion-avatar item-left>\n                <img src="assets/img/vCM67rRyCGzbRxYbIkOQ_dave.jpg" />\n            </ion-avatar>\n            <h2>\n                Dave Pocoro\n            </h2>\n        </ion-item>\n    </ion-list>\n    <div>\n        <img src="assets/img/PKS9kU1dSxy4whILYvtT_bad-drivers-7.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n    </div>\n    <ion-list id="explore-list12">\n        <ion-item id="explore-list-item-container2">\n            <div id="explore-markdown2" class="show-list-numbers-and-dots">\n                <p style="margin-top:0px;color:#000000;">\n                    Check this, what just he did?\n                </p>\n            </div>\n        </ion-item>\n    </ion-list>\n    <h5 id="explore-heading1" style="color:#000000;font-weight:600;">\n        Loading data...\n    </h5>\n</ion-content>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/explore/explore.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], ExplorePage);
@@ -171,7 +171,7 @@ ExplorePage = __decorate([
 
 /***/ }),
 
-/***/ 129:
+/***/ 130:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -207,7 +207,7 @@ var GaragePage = (function () {
 }());
 GaragePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-garage',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\garage\garage.html"*/'<!--\n\n  Generated template for the GaragePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>\n\n            Garage\n\n        </ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only>\n\n        <ion-icon name="add"></ion-icon>\n\n      </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page5">\n\n    <ion-list id="garage-list7">\n\n        <ion-item-sliding>\n\n            <ion-item color="none" id="garage-list-item13">\n\n                <ion-icon name="car" item-left></ion-icon>\n\n                Alphard Vellfire\n\n            </ion-item>\n\n            <ion-item-options side="left">\n\n                <button ion-button color="assertive">\n\n          Delete\n\n        </button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <ion-item color="none" id="garage-list-item16">\n\n                <ion-icon name="car" item-left></ion-icon>\n\n                Porsche 911\n\n            </ion-item>\n\n            <ion-item-options side="left">\n\n                <button ion-button color="assertive">\n\n          Delete\n\n        </button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <ion-item color="none" id="garage-list-item14">\n\n                <ion-icon name="car" item-left></ion-icon>\n\n                Toyota Altis\n\n            </ion-item>\n\n            <ion-item-options side="left">\n\n                <button ion-button color="assertive">\n\n          Delete\n\n        </button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n        <ion-item-sliding>\n\n            <ion-item color="none" id="garage-list-item15">\n\n                <ion-icon name="car" item-left></ion-icon>\n\n                Toyota Supra\n\n            </ion-item>\n\n            <ion-item-options side="left">\n\n                <button ion-button color="assertive">\n\n          Delete\n\n        </button>\n\n            </ion-item-options>\n\n        </ion-item-sliding>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\garage\garage.html"*/,
+        selector: 'page-garage',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/garage/garage.html"*/'<!--\n  Generated template for the GaragePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n        <ion-title>\n            Garage\n        </ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only>\n        <ion-icon name="add"></ion-icon>\n      </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content padding id="page5">\n    <ion-list id="garage-list7">\n        <ion-item-sliding>\n            <ion-item color="none" id="garage-list-item13">\n                <ion-icon name="car" item-left></ion-icon>\n                Alphard Vellfire\n            </ion-item>\n            <ion-item-options side="left">\n                <button ion-button color="assertive">\n          Delete\n        </button>\n            </ion-item-options>\n        </ion-item-sliding>\n        <ion-item-sliding>\n            <ion-item color="none" id="garage-list-item16">\n                <ion-icon name="car" item-left></ion-icon>\n                Porsche 911\n            </ion-item>\n            <ion-item-options side="left">\n                <button ion-button color="assertive">\n          Delete\n        </button>\n            </ion-item-options>\n        </ion-item-sliding>\n        <ion-item-sliding>\n            <ion-item color="none" id="garage-list-item14">\n                <ion-icon name="car" item-left></ion-icon>\n                Toyota Altis\n            </ion-item>\n            <ion-item-options side="left">\n                <button ion-button color="assertive">\n          Delete\n        </button>\n            </ion-item-options>\n        </ion-item-sliding>\n        <ion-item-sliding>\n            <ion-item color="none" id="garage-list-item15">\n                <ion-icon name="car" item-left></ion-icon>\n                Toyota Supra\n            </ion-item>\n            <ion-item-options side="left">\n                <button ion-button color="assertive">\n          Delete\n        </button>\n            </ion-item-options>\n        </ion-item-sliding>\n    </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/garage/garage.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], GaragePage);
@@ -238,7 +238,7 @@ webpackEmptyAsyncContext.id = 182;
 
 var map = {
 	"../pages/contact/contact.module": [
-		727,
+		728,
 		2
 	],
 	"../pages/explore/explore.module": [
@@ -254,7 +254,7 @@ var map = {
 		230
 	],
 	"../pages/logout/logout.module": [
-		728,
+		729,
 		1
 	],
 	"../pages/menu/menu.module": [
@@ -264,7 +264,7 @@ var map = {
 		303
 	],
 	"../pages/special/special.module": [
-		729,
+		730,
 		0
 	],
 	"../pages/tabs/tabs.module": [
@@ -295,7 +295,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExplorePageModule", function() { return ExplorePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__explore__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__explore__ = __webpack_require__(129);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -333,7 +333,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FilteringPageModule", function() { return FilteringPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__filtering__ = __webpack_require__(375);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__filtering__ = __webpack_require__(376);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -437,7 +437,7 @@ var FriendsPage = (function () {
 }());
 FriendsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-friends',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\friends\friends.html"*/'<!--\n\n  Generated template for the FriendsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>\n\n            Friends\n\n        </ion-title>\n\n        <ion-buttons end>\n\n            <button ion-button icon-only>\n\n        <ion-icon name="add"></ion-icon>\n\n      </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page2">\n\n    <ion-list id="friends-list9">\n\n        <ion-item color="none" id="friends-list-item11">\n\n            <ion-avatar item-left>\n\n                <img src="assets/img/619VpxuQfGQaWDYyAzKA_Grumpy_Cat.jpg" />\n\n            </ion-avatar>\n\n            <h2>\n\n                Gavin\n\n            </h2>\n\n        </ion-item>\n\n        <ion-item color="none" id="friends-list-item17">\n\n            <ion-avatar item-left>\n\n                <img src="assets/img/10ceJaViQimRtfslZ2qN_Meme.jpg" />\n\n            </ion-avatar>\n\n            <h2>\n\n                Bryan\n\n            </h2>\n\n        </ion-item>\n\n        <ion-item color="none" id="friends-list-item18">\n\n            <ion-avatar item-left>\n\n                <img src="assets/img/PZOXS2FFTIqLySac46w1_Bill.jpg" />\n\n            </ion-avatar>\n\n            <h2>\n\n                Jet\n\n            </h2>\n\n        </ion-item>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\friends\friends.html"*/,
+        selector: 'page-friends',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/friends/friends.html"*/'<!--\n  Generated template for the FriendsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n        <ion-title>\n            Friends\n        </ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only>\n        <ion-icon name="add"></ion-icon>\n      </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content padding id="page2">\n    <ion-list id="friends-list9">\n        <ion-item color="none" id="friends-list-item11">\n            <ion-avatar item-left>\n                <img src="assets/img/619VpxuQfGQaWDYyAzKA_Grumpy_Cat.jpg" />\n            </ion-avatar>\n            <h2>\n                Gavin\n            </h2>\n        </ion-item>\n        <ion-item color="none" id="friends-list-item17">\n            <ion-avatar item-left>\n                <img src="assets/img/10ceJaViQimRtfslZ2qN_Meme.jpg" />\n            </ion-avatar>\n            <h2>\n                Bryan\n            </h2>\n        </ion-item>\n        <ion-item color="none" id="friends-list-item18">\n            <ion-avatar item-left>\n                <img src="assets/img/PZOXS2FFTIqLySac46w1_Bill.jpg" />\n            </ion-avatar>\n            <h2>\n                Jet\n            </h2>\n        </ion-item>\n    </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/friends/friends.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], FriendsPage);
@@ -454,7 +454,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GaragePageModule", function() { return GaragePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__garage__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__garage__ = __webpack_require__(130);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -492,7 +492,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuPageModule", function() { return MenuPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu__ = __webpack_require__(700);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu__ = __webpack_require__(701);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -596,7 +596,7 @@ var ProfilePage = (function () {
 }());
 ProfilePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-profile',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>\n\n            Profile\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page4">\n\n    <ion-list id="profile-list2">\n\n        <ion-item color="none" id="profile-list-item1">\n\n            <ion-thumbnail item-left>\n\n                <img src="assets/img/2qFApxNcR4qVwdG49CWd_Gavin.jpg" />\n\n            </ion-thumbnail>\n\n            <h2>\n\n                Benz Natthakul\n\n            </h2>\n\n        </ion-item>\n\n        <ion-item-divider color="light" id="profile-list-item-divider3">\n\n            Car History\n\n        </ion-item-divider>\n\n    </ion-list>\n\n    <ion-list id="profile-list4">\n\n        <ion-item color="none" id="profile-list-item9">\n\n            Lamborghini\n\n            <ion-note item-right></ion-note>\n\n        </ion-item>\n\n        <ion-item color="none" id="profile-list-item10">\n\n            Mercedes-Benz\n\n            <ion-note item-right></ion-note>\n\n        </ion-item>\n\n        <ion-item color="none" id="profile-list-item8">\n\n            Toyota\n\n            <ion-note item-right></ion-note>\n\n        </ion-item>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\profile\profile.html"*/,
+        selector: 'page-profile',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/profile/profile.html"*/'<!--\n  Generated template for the ProfilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n        <ion-title>\n            Profile\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content padding id="page4">\n    <ion-list id="profile-list2">\n        <ion-item color="none" id="profile-list-item1">\n            <ion-thumbnail item-left>\n                <img src="assets/img/2qFApxNcR4qVwdG49CWd_Gavin.jpg" />\n            </ion-thumbnail>\n            <h2>\n                Benz Natthakul\n            </h2>\n        </ion-item>\n        <ion-item-divider color="light" id="profile-list-item-divider3">\n            Car History\n        </ion-item-divider>\n    </ion-list>\n    <ion-list id="profile-list4">\n        <ion-item color="none" id="profile-list-item9">\n            Lamborghini\n            <ion-note item-right></ion-note>\n        </ion-item>\n        <ion-item color="none" id="profile-list-item10">\n            Mercedes-Benz\n            <ion-note item-right></ion-note>\n        </ion-item>\n        <ion-item color="none" id="profile-list-item8">\n            Toyota\n            <ion-note item-right></ion-note>\n        </ion-item>\n    </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/profile/profile.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], ProfilePage);
@@ -613,7 +613,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsPageModule", function() { return TabsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs__ = __webpack_require__(701);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs__ = __webpack_require__(702);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -651,6 +651,7 @@ TabsPageModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_media_capture__ = __webpack_require__(309);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -665,13 +666,42 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var CapturePage = (function () {
-    function CapturePage(alerCtrl, navCtrl, camera, navParams) {
+    function CapturePage(alerCtrl, navCtrl, camera, navParams, mediaCapture) {
         this.alerCtrl = alerCtrl;
         this.navCtrl = navCtrl;
         this.camera = camera;
         this.navParams = navParams;
+        this.mediaCapture = mediaCapture;
     }
+    CapturePage.prototype.recordVideo = function () {
+        var _this = this;
+        var confirm = this.alerCtrl.create({
+            title: 'Open the camera?',
+            message: 'Do you agree to allow us to use your camera?',
+            buttons: [
+                {
+                    text: 'Disagree',
+                    handler: function () {
+                        console.log('Disagree clicked');
+                    }
+                },
+                {
+                    text: 'Agree',
+                    handler: function () {
+                        console.log('Agree clicked');
+                        var options = {
+                            quality: 50,
+                            duration: 15
+                        };
+                        _this.mediaCapture.captureVideo(options).then(function (data) { return console.log(data); }, function (err) { return console.error(err); });
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
     CapturePage.prototype.doConfirm = function () {
         var _this = this;
         var confirm = this.alerCtrl.create({
@@ -717,22 +747,22 @@ var CapturePage = (function () {
 }());
 CapturePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-capture',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\capture\capture.html"*/'<!--\n\n  Generated template for the CapturePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n    <ion-icon name="menu"></ion-icon>\n\n  </button>\n\n        <ion-title>\n\n            Capture\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page8">\n\n    <div class="spacer" style="height:50px;" id="capture-spacer5"></div>\n\n    <button id="capture-button9" ion-button clear color="positive" block>\n\n  <ion-icon name="car"></ion-icon>\n\n</button>\n\n    <h5 id="capture-heading2" style="color:#000000;text-align:center;">\n\n        Take some cars here!\n\n    </h5>\n\n    <div class="spacer" style="height:50px;" id="capture-spacer6"></div>\n\n\n\n    <button id="capture-button8" ion-button color="primary" block icon-left (click)="doConfirm()"> <ion-icon name="camera"></ion-icon> Tap for photo or hold for video.</button>\n\n\n\n    <!-- <button id="capture-button8" ion-button color="positive" block icon-left>\n\n  <ion-icon name="camera"></ion-icon>\n\n  Tap for photo or hold for video.\n\n</button> -->\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\capture\capture.html"*/
+        selector: 'page-capture',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/capture/capture.html"*/'<!--\n  Generated template for the CapturePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n    <ion-icon name="menu"></ion-icon>\n  </button>\n        <ion-title>\n            Capture\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content padding id="page8">\n    <div class="spacer" style="height:50px;" id="capture-spacer5"></div>\n    <button id="capture-button9" ion-button clear color="positive" block>\n  <ion-icon name="car"></ion-icon>\n</button>\n    <h5 id="capture-heading2" style="color:#000000;text-align:center;">\n        Take some cars here!\n    </h5>\n    <div class="spacer" style="height:50px;" id="capture-spacer6"></div>\n\n    <button id="capture-button8" ion-button color="primary" block icon-left (click)="doConfirm()"> <ion-icon name="camera"></ion-icon> Tap for photo</button>\n    <button id="capture-button9" ion-button color="secondary" block icon-left (click)="recordVideo()" > <ion-icon name="camera"></ion-icon> Tap for video</button>\n    <!-- <button id="capture-button8" ion-button color="positive" block icon-left>\n  <ion-icon name="camera"></ion-icon>\n  Tap for photo or hold for video.\n</button> -->\n\n</ion-content>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/capture/capture.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_media_capture__["a" /* MediaCapture */]])
 ], CapturePage);
 
 //# sourceMappingURL=capture.js.map
 
 /***/ }),
 
-/***/ 350:
+/***/ 351:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(351);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(356);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -740,7 +770,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 355:
+/***/ 356:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -748,32 +778,34 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(722);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(348);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(723);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(350);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__ = __webpack_require__(307);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(723);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angularfire2_auth__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__environments_environments__ = __webpack_require__(724);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_auth_auth__ = __webpack_require__(93);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_storage__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_explore_explore_module__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_filtering_filtering_module__ = __webpack_require__(227);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_garage_garage_module__ = __webpack_require__(230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_login_login_module__ = __webpack_require__(725);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_capture_capture_module__ = __webpack_require__(726);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_profile_profile_module__ = __webpack_require__(303);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_menu_menu_module__ = __webpack_require__(302);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_tabs_tabs_module__ = __webpack_require__(305);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_friends_friends_module__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(724);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_media_capture__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angularfire2__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angularfire2_database__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_angularfire2_auth__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__environments_environments__ = __webpack_require__(725);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__services_auth_auth__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_storage__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_explore_explore_module__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_filtering_filtering_module__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_garage_garage_module__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_login_login_module__ = __webpack_require__(726);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_capture_capture_module__ = __webpack_require__(727);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_profile_profile_module__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_menu_menu_module__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_tabs_tabs_module__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_friends_friends_module__ = __webpack_require__(228);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -838,20 +870,20 @@ AppModule = __decorate([
                     { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] }
                 ]
             }),
-            __WEBPACK_IMPORTED_MODULE_8_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_11__environments_environments__["a" /* environments */].firebaseConfig),
-            __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__["b" /* AngularFireDatabaseModule */],
-            __WEBPACK_IMPORTED_MODULE_10_angularfire2_auth__["b" /* AngularFireAuthModule */],
-            __WEBPACK_IMPORTED_MODULE_13__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
+            __WEBPACK_IMPORTED_MODULE_9_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_12__environments_environments__["a" /* environments */].firebaseConfig),
+            __WEBPACK_IMPORTED_MODULE_10_angularfire2_database__["b" /* AngularFireDatabaseModule */],
+            __WEBPACK_IMPORTED_MODULE_11_angularfire2_auth__["b" /* AngularFireAuthModule */],
+            __WEBPACK_IMPORTED_MODULE_14__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
             // start-----[PageModule]------
-            __WEBPACK_IMPORTED_MODULE_14__pages_explore_explore_module__["ExplorePageModule"],
-            __WEBPACK_IMPORTED_MODULE_15__pages_filtering_filtering_module__["FilteringPageModule"],
-            __WEBPACK_IMPORTED_MODULE_16__pages_garage_garage_module__["GaragePageModule"],
-            __WEBPACK_IMPORTED_MODULE_17__pages_login_login_module__["a" /* LoginPageModule */],
-            __WEBPACK_IMPORTED_MODULE_18__pages_capture_capture_module__["a" /* CapturePageModule */],
-            __WEBPACK_IMPORTED_MODULE_19__pages_profile_profile_module__["ProfilePageModule"],
-            __WEBPACK_IMPORTED_MODULE_20__pages_menu_menu_module__["MenuPageModule"],
-            __WEBPACK_IMPORTED_MODULE_21__pages_tabs_tabs_module__["TabsPageModule"],
-            __WEBPACK_IMPORTED_MODULE_22__pages_friends_friends_module__["FriendsPageModule"]
+            __WEBPACK_IMPORTED_MODULE_15__pages_explore_explore_module__["ExplorePageModule"],
+            __WEBPACK_IMPORTED_MODULE_16__pages_filtering_filtering_module__["FilteringPageModule"],
+            __WEBPACK_IMPORTED_MODULE_17__pages_garage_garage_module__["GaragePageModule"],
+            __WEBPACK_IMPORTED_MODULE_18__pages_login_login_module__["a" /* LoginPageModule */],
+            __WEBPACK_IMPORTED_MODULE_19__pages_capture_capture_module__["a" /* CapturePageModule */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_profile_profile_module__["ProfilePageModule"],
+            __WEBPACK_IMPORTED_MODULE_21__pages_menu_menu_module__["MenuPageModule"],
+            __WEBPACK_IMPORTED_MODULE_22__pages_tabs_tabs_module__["TabsPageModule"],
+            __WEBPACK_IMPORTED_MODULE_23__pages_friends_friends_module__["FriendsPageModule"]
             // end-----[PageModule]------
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
@@ -871,9 +903,10 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
             __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__["a" /* SplashScreen */],
             __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__["a" /* Camera */],
-            __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__["a" /* AngularFireDatabase */],
+            __WEBPACK_IMPORTED_MODULE_10_angularfire2_database__["a" /* AngularFireDatabase */],
+            __WEBPACK_IMPORTED_MODULE_8__ionic_native_media_capture__["a" /* MediaCapture */],
             { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] },
-            __WEBPACK_IMPORTED_MODULE_12__services_auth_auth__["a" /* AuthService */]
+            __WEBPACK_IMPORTED_MODULE_13__services_auth_auth__["a" /* AuthService */]
         ]
     })
 ], AppModule);
@@ -882,7 +915,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 375:
+/***/ 376:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -918,7 +951,7 @@ var FilteringPage = (function () {
 }());
 FilteringPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-filtering',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\filtering\filtering.html"*/'<!--\n\n  Generated template for the FilteringPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>\n\n            Filtering\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page7">\n\n    <form id="filtering-form2">\n\n        <ion-item id="filtering-input6">\n\n            <ion-label stacked>\n\n                License Plate\n\n            </ion-label>\n\n            <ion-input type="text" placeholder="AB 1234" name="License Plate"></ion-input>\n\n        </ion-item>\n\n        <ion-item id="filtering-select1">\n\n            <ion-label>\n\n                Brand\n\n            </ion-label>\n\n            <ion-select name="Brand">\n\n                <ion-option>\n\n                    Audi\n\n                </ion-option>\n\n                <ion-option>\n\n                    Toyota\n\n                </ion-option>\n\n                <ion-option>\n\n                    Honda\n\n                </ion-option>\n\n                <ion-option>\n\n                    Isuzu\n\n                </ion-option>\n\n                <ion-option>\n\n                    Mercedes Benz\n\n                </ion-option>\n\n                <ion-option>\n\n                    BMW\n\n                </ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        <ion-item id="filtering-select2">\n\n            <ion-label>\n\n                Color\n\n            </ion-label>\n\n            <ion-select name="Color">\n\n                <ion-option>\n\n                    Black\n\n                </ion-option>\n\n                <ion-option>\n\n                    White\n\n                </ion-option>\n\n                <ion-option>\n\n                    Brown\n\n                </ion-option>\n\n                <ion-option>\n\n                    Blue\n\n                </ion-option>\n\n                <ion-option>\n\n                    Red\n\n                </ion-option>\n\n                <ion-option>\n\n                    Green\n\n                </ion-option>\n\n                <ion-option>\n\n                    Grey\n\n                </ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        <ion-item id="filtering-select3">\n\n            <ion-label>\n\n                Date/Time\n\n            </ion-label>\n\n            <ion-select name="Date/Time"></ion-select>\n\n        </ion-item>\n\n    </form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\filtering\filtering.html"*/,
+        selector: 'page-filtering',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/filtering/filtering.html"*/'<!--\n  Generated template for the FilteringPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n        <ion-title>\n            Filtering\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content padding id="page7">\n    <form id="filtering-form2">\n        <ion-item id="filtering-input6">\n            <ion-label stacked>\n                License Plate\n            </ion-label>\n            <ion-input type="text" placeholder="AB 1234" name="License Plate"></ion-input>\n        </ion-item>\n        <ion-item id="filtering-select1">\n            <ion-label>\n                Brand\n            </ion-label>\n            <ion-select name="Brand">\n                <ion-option>\n                    Audi\n                </ion-option>\n                <ion-option>\n                    Toyota\n                </ion-option>\n                <ion-option>\n                    Honda\n                </ion-option>\n                <ion-option>\n                    Isuzu\n                </ion-option>\n                <ion-option>\n                    Mercedes Benz\n                </ion-option>\n                <ion-option>\n                    BMW\n                </ion-option>\n            </ion-select>\n        </ion-item>\n        <ion-item id="filtering-select2">\n            <ion-label>\n                Color\n            </ion-label>\n            <ion-select name="Color">\n                <ion-option>\n                    Black\n                </ion-option>\n                <ion-option>\n                    White\n                </ion-option>\n                <ion-option>\n                    Brown\n                </ion-option>\n                <ion-option>\n                    Blue\n                </ion-option>\n                <ion-option>\n                    Red\n                </ion-option>\n                <ion-option>\n                    Green\n                </ion-option>\n                <ion-option>\n                    Grey\n                </ion-option>\n            </ion-select>\n        </ion-item>\n        <ion-item id="filtering-select3">\n            <ion-label>\n                Date/Time\n            </ion-label>\n            <ion-select name="Date/Time"></ion-select>\n        </ion-item>\n    </form>\n</ion-content>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/filtering/filtering.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], FilteringPage);
@@ -927,15 +960,15 @@ FilteringPage = __decorate([
 
 /***/ }),
 
-/***/ 700:
+/***/ 701:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_auth_auth__ = __webpack_require__(93);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1028,7 +1061,7 @@ __decorate([
 ], MenuPage.prototype, "nav", void 0);
 MenuPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-menu',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\menu\menu.html"*/'<ion-menu [content]="content">\n\n    <ion-header>\n\n        <ion-toolbar>\n\n            <ion-title>Menu</ion-title>\n\n        </ion-toolbar>\n\n    </ion-header>\n\n\n\n    <ion-content>\n\n        <ion-list>\n\n            <button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">\n\n            <ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>\n\n            {{ p.title }}\n\n          </button>\n\n        </ion-list>\n\n    </ion-content>\n\n</ion-menu>\n\n\n\n<!-- main navigation -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\menu\menu.html"*/,
+        selector: 'page-menu',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/menu/menu.html"*/'<ion-menu [content]="content">\n    <ion-header>\n        <ion-toolbar>\n            <ion-title>Menu</ion-title>\n        </ion-toolbar>\n    </ion-header>\n\n    <ion-content>\n        <ion-list>\n            <button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">\n            <ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>\n            {{ p.title }}\n          </button>\n        </ion-list>\n    </ion-content>\n</ion-menu>\n\n<!-- main navigation -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/menu/menu.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
@@ -1041,7 +1074,7 @@ MenuPage = __decorate([
 
 /***/ }),
 
-/***/ 701:
+/***/ 702:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1049,8 +1082,8 @@ MenuPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__capture_capture__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__garage_garage__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__explore_explore__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__garage_garage__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__explore_explore__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__profile_profile__ = __webpack_require__(304);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1085,7 +1118,7 @@ var TabsPage = (function () {
 }());
 TabsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tabs',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\tabs\tabs.html"*/'<ion-tabs [selectedIndex]="myIndex">\n\n    <ion-tab [root]="tab1Root" tabTitle="Explore" tabIcon="ios-search"></ion-tab>\n\n    <ion-tab [root]="tab2Root" tabTitle="Camera" tabIcon="ios-camera"></ion-tab>\n\n    <ion-tab [root]="tab3Root" tabTitle="Garage" tabIcon="ios-car"></ion-tab>\n\n    <ion-tab [root]="tab4Root" tabTitle="Profile" tabIcon="ios-person"></ion-tab>\n\n</ion-tabs>'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\tabs\tabs.html"*/,
+        selector: 'page-tabs',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/tabs/tabs.html"*/'<ion-tabs [selectedIndex]="myIndex">\n    <ion-tab [root]="tab1Root" tabTitle="Explore" tabIcon="ios-search"></ion-tab>\n    <ion-tab [root]="tab2Root" tabTitle="Camera" tabIcon="ios-camera"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="Garage" tabIcon="ios-car"></ion-tab>\n    <ion-tab [root]="tab4Root" tabTitle="Profile" tabIcon="ios-person"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/tabs/tabs.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], TabsPage);
@@ -1094,19 +1127,19 @@ TabsPage = __decorate([
 
 /***/ }),
 
-/***/ 722:
+/***/ 723:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(348);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(349);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_explore_explore__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_explore_explore__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_friends_friends__ = __webpack_require__(229);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_login_login__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_garage_garage__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_login_login__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_garage_garage__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_auth_auth__ = __webpack_require__(93);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1174,7 +1207,7 @@ __decorate([
     __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
 ], MyApp.prototype, "navCtrl", void 0);
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\app\app.html"*/'<!DOCTYPE html>\n\n<ion-nav [root]="rootPage"></ion-nav>\n\n\n\n\n\n\n\n<!-- <ion-menu [content]="mainContent">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>\n\n        Menu\n\n      </ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  <ion-content id="side-menu21">\n\n    <button id="menu-button1" ion-button clear color="dark" block icon-left style="font-weight:600;text-align:left;" menuClose="" on-click="goToExplore()">\n\n      <ion-icon name="search"></ion-icon>\n\n      Explore\n\n    </button>\n\n    <button id="menu-button4" ion-button clear color="positive" block icon-left style="font-weight:600;text-align:left;" menuClose="" on-click="goToFriends()">\n\n      <ion-icon name="people"></ion-icon>\n\n      Friends\n\n    </button>\n\n    <button id="menu-button3" ion-button clear color="positive" block icon-left style="font-weight:600;text-align:left;">\n\n      <ion-icon name="settings"></ion-icon>\n\n      Setting\n\n    </button>\n\n    <button id="menu-button2" ion-button clear color="assertive" block icon-left style="font-weight:600;text-align:left;" menuClose="" on-click="goToLogin()">\n\n      <ion-icon name="log-out"></ion-icon>\n\n      Log out\n\n    </button>\n\n  </ion-content>\n\n</ion-menu>\n\n\n\n<ion-nav #mainContent [root]="rootPage"></ion-nav> -->'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/app/app.html"*/'<!DOCTYPE html>\n<ion-nav [root]="rootPage"></ion-nav>\n\n\n\n<!-- <ion-menu [content]="mainContent">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>\n        Menu\n      </ion-title>\n    </ion-toolbar>\n  </ion-header>\n  <ion-content id="side-menu21">\n    <button id="menu-button1" ion-button clear color="dark" block icon-left style="font-weight:600;text-align:left;" menuClose="" on-click="goToExplore()">\n      <ion-icon name="search"></ion-icon>\n      Explore\n    </button>\n    <button id="menu-button4" ion-button clear color="positive" block icon-left style="font-weight:600;text-align:left;" menuClose="" on-click="goToFriends()">\n      <ion-icon name="people"></ion-icon>\n      Friends\n    </button>\n    <button id="menu-button3" ion-button clear color="positive" block icon-left style="font-weight:600;text-align:left;">\n      <ion-icon name="settings"></ion-icon>\n      Setting\n    </button>\n    <button id="menu-button2" ion-button clear color="assertive" block icon-left style="font-weight:600;text-align:left;" menuClose="" on-click="goToLogin()">\n      <ion-icon name="log-out"></ion-icon>\n      Log out\n    </button>\n  </ion-content>\n</ion-menu>\n\n<ion-nav #mainContent [root]="rootPage"></ion-nav> -->'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */],
         __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1186,7 +1219,7 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 723:
+/***/ 724:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1212,7 +1245,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h2>Welcome to Ionic!</h2>\n\n  <p>\n\n    This starter project comes with simple tabs-based layout for apps\n\n    that are going to primarily use a Tabbed UI.\n\n  </p>\n\n  <p>\n\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n\n    update any existing page or create new pages.\n\n  </p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\SangerZ\Documents\GitHub\tester-seen-that-car\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Welcome to Ionic!</h2>\n  <p>\n    This starter project comes with simple tabs-based layout for apps\n    that are going to primarily use a Tabbed UI.\n  </p>\n  <p>\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n    update any existing page or create new pages.\n  </p>\n</ion-content>\n'/*ion-inline-end:"/Users/ntkbb/Documents/GitHub/tester-seen-that-car/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
 ], HomePage);
@@ -1221,7 +1254,7 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 724:
+/***/ 725:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1240,14 +1273,14 @@ var environments = {
 
 /***/ }),
 
-/***/ 725:
+/***/ 726:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1277,7 +1310,7 @@ LoginPageModule = __decorate([
 
 /***/ }),
 
-/***/ 726:
+/***/ 727:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1319,7 +1352,7 @@ CapturePageModule = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Rx__ = __webpack_require__(449);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Rx__ = __webpack_require__(450);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Rx___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Rx__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(301);
@@ -1384,5 +1417,5 @@ AuthService = __decorate([
 
 /***/ })
 
-},[350]);
+},[351]);
 //# sourceMappingURL=main.js.map
