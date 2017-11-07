@@ -1,0 +1,56 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-buildinfo": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "com.firebase.cordova",
+      "ANDROID_SCHEME": " ",
+      "ANDROID_HOST": " ",
+      "ANDROID_PATHPREFIX": "/",
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "come.ben.blahblah"
+    }
+  }
+}

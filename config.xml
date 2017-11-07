@@ -91,15 +91,12 @@
     <plugin name="cordova-plugin-customurlscheme" spec="^4.3.0">
         <variable name="URL_SCHEME" value="com.firebase.cordova" />
     </plugin>
-
     <universal-links>
-    <host name="https://v6m7g.app.goo.gl/" scheme="https" />
-    <host name="seen-that-car.firebaseapp.com" scheme="https">
-        <path url="/__/auth/callback"/>
-    </host>
+        <host name="https://v6m7g.app.goo.gl/" scheme="https" />
+        <host name="seen-that-car.firebaseapp.com" scheme="https">
+            <path url="/__/auth/callback" />
+        </host>
     </universal-links>
-
-
-    <!-- <preference name="AndroidLaunchMode" value="singleTask" /> -->
-    
+    <engine name="android" spec="~6.3.0" />
+    <plugin name="cordova-plugin-media-capture" spec="^1.4.3" />
 </widget>

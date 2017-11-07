@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Camera } from '@ionic-native/camera';
 import { HomePage } from '../pages/home/home';
+import { MediaCapture } from '@ionic-native/media-capture';
 // import { LoginPage } from '../pages/login/login';
 // import { ExplorePage } from '../pages/explore/explore';
 // import { ProfilePage } from '../pages/profile/profile';
@@ -83,6 +84,7 @@ import { FriendsPageModule } from '../pages/friends/friends.module';
     SplashScreen,
     Camera,
     AngularFireDatabase,
+    MediaCapture,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AuthService
   ]
