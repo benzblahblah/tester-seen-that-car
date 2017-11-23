@@ -20,8 +20,10 @@
             <ion-thumbnail item-left>
                 <img src="assets/img/2qFApxNcR4qVwdG49CWd_Gavin.jpg" />
             </ion-thumbnail>
-            <h2>
-                Benz Natthakul
+            <h2 *ngIf="user != null">
+
+                {{ user.displayName }}
+                <!-- Benz Natthakul -->
             </h2>
         </ion-item>
         <ion-item-divider color="light" id="profile-list-item-divider3">

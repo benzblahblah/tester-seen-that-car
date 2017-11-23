@@ -13,7 +13,6 @@ import { AuthService } from './../../services/auth/auth';
 })
 export class LoginPage {
 
-  displayName;
   private user: firebase.User;
 
   constructor(
@@ -23,8 +22,9 @@ export class LoginPage {
     public auth: AuthService,
     private platform: Platform 
   ) {
-    console.log("LoginPage");
+    
     this.userAuth();
+    console.log("LoginPage - UserAuth");
   }
 
   login(provider)
@@ -52,35 +52,20 @@ export class LoginPage {
       .then(result => console.log("Logged-in with "+provider,result))
       .catch(error => console.log("Error Sing-in with "+provider,error));
     }
-
   }
 
   userAuth(){
     this.afAuth.authState.subscribe(user => {
       if (!user) {
-        this.displayName = null;
+        this.user == null;
         return;
       }
       this.user = user;
-      this.displayName = user.displayName;
       this.createUser();
-      this.navCtrl.setRoot('MenuPage');
+      // this.navCtrl.setRoot('MenuPage'); old.version before move menu to app.component.ts
+      this.navCtrl.setRoot('TabsPage');
     });
   }
-
-// Auth Login Credentials
-  // login() {
-  //   console.log('login.ts login');
-  //   let credentials = {username: 'foo', password: 'bar'}; // use real credentials from some form here
-  //   this.auth.login(credentials);
-  // }
-
-  signInWithFacebook() {
-    console.log('login.ts login');
-    this.afAuth.auth
-      .signInWithPopup(new firebase.auth.FacebookAuthProvider())
-      .then(res => console.log(res));    
-  } 
 
   createUser(){
     const dbUserRef = this.afDB.object('Users/'+this.user.uid);

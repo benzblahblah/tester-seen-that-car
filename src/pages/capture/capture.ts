@@ -4,6 +4,7 @@ import { AlertController } from 'ionic-angular';
 import { Camera, CameraOptions } from '@ionic-native/camera';
 import { NavController, NavParams } from 'ionic-angular';
 import { MediaCapture, MediaFile, CaptureError, CaptureVideoOptions } from '@ionic-native/media-capture';
+import { PlaceholderPage }  from '../placeholder/placeholder'
 
 
 @Component({
@@ -19,7 +20,7 @@ export class CapturePage {
   
   recordVideo(){
     let confirm = this.alerCtrl.create({
-      title: 'Open the camera?',
+      title: 'Record the clip?',
       message: 'Do you agree to allow us to use your camera?',
       buttons: [
         {
@@ -48,9 +49,9 @@ export class CapturePage {
   }
 
 
-  doConfirm() {
+  CapturePic() {
     let confirm = this.alerCtrl.create({
-      title: 'Open the camera?',
+      title: 'Take a photo?',
       message: 'Do you agree to allow us to use your camera?',
       buttons: [
         {
@@ -80,6 +81,12 @@ export class CapturePage {
              }, (err) => {
               // Handle error
              });
+
+             // Once user capture the image then,
+             // photo will be in the placeholder and automate license is simultaneously called.
+             // Move to the form page (placeholder) that allow user to fill-in or edit the info before saving.
+             
+             this.navCtrl.push(PlaceholderPage);
           }            
         }
       ]

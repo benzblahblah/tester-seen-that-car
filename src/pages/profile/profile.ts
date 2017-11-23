@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import * as firebase from 'firebase/app';
+import { AngularFireAuth } from 'angularfire2/auth';
 
 /**
  * Generated class for the ProfilePage page.
@@ -15,7 +17,25 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ProfilePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  private user: firebase.User;
+
+  constructor(public navCtrl: NavController, 
+    public navParams: NavParams,
+    private afAuth: AngularFireAuth) {
+      this.userAuth();
+  }
+
+
+
+  userAuth(){
+    this.afAuth.authState.subscribe(user => {
+      if (!user) {
+        this.user == null;
+        return;
+      }
+      this.user = user;
+      this.user.displayName;
+    });
   }
 
   ionViewDidLoad() {

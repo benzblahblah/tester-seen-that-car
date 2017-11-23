@@ -13,10 +13,10 @@ import { ProfilePage } from '../profile/profile';
 })
 export class TabsPage {
 
-  tab1Root: any = ExplorePage;
-  tab2Root: any = CapturePage;
-  tab3Root: any = GaragePage;
-  tab4Root: any = ProfilePage;
+  tab1Root: any = ExplorePage; //index 0
+  tab2Root: any = CapturePage; //index 1
+  tab3Root: any = GaragePage; //index 2
+  tab4Root: any = ProfilePage; //index 3
   myIndex: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

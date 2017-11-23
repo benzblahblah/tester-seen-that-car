@@ -5,7 +5,6 @@ import { MyApp } from './app.component';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Camera } from '@ionic-native/camera';
-import { HomePage } from '../pages/home/home';
 import { MediaCapture } from '@ionic-native/media-capture';
 // import { LoginPage } from '../pages/login/login';
 // import { ExplorePage } from '../pages/explore/explore';
@@ -28,22 +27,14 @@ import { GaragePageModule } from '../pages/garage/garage.module';
 import { LoginPageModule } from '../pages/login/login.module';
 import { CapturePageModule } from '../pages/capture/capture.module';
 import { ProfilePageModule } from '../pages/profile/profile.module';
-import { MenuPageModule } from '../pages/menu/menu.module';
+
 import { TabsPageModule } from '../pages/tabs/tabs.module';
 import { FriendsPageModule } from '../pages/friends/friends.module';
+import { PlaceholderPageModule } from '../pages/placeholder/placeholder.module'
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
-    // LoginPage,
-    // ExplorePage,
-    // ProfilePage,
-    // GaragePage,
-    // FilteringPage,
-    // CapturePage,
-    // ContactPage,
-    // FriendsPage,
   ],
   imports: [
     BrowserModule,
@@ -59,9 +50,9 @@ import { FriendsPageModule } from '../pages/friends/friends.module';
     LoginPageModule,
     CapturePageModule,
     ProfilePageModule,
-    MenuPageModule,
     TabsPageModule,
-    FriendsPageModule
+    FriendsPageModule,
+    PlaceholderPageModule
 
 
 // end-----[PageModule]------
@@ -69,15 +60,6 @@ import { FriendsPageModule } from '../pages/friends/friends.module';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
-    // LoginPage,
-    // ExplorePage,
-    // ProfilePage,
-    // GaragePage,
-    // FilteringPage,
-    // CapturePage,
-    // ContactPage,
-    // FriendsPage,
   ],
   providers: [
     StatusBar,
