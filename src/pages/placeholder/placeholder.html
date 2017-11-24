@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
   Generated template for the PlaceholderPage page.
 
@@ -6,13 +7,50 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>placeholder</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title> username </ion-title>
+
+        <ion-buttons end>
+            <button ion-button (click)="shareBtn()">
+              Share
+            <!-- <ion-icon name="options"></ion-icon> -->
+            </button>
+        </ion-buttons>
+
+    </ion-navbar>
+
 
 </ion-header>
 
-
 <ion-content padding>
+    <ion-list>
+
+        <ion-list>
+            <ion-item>
+                <ion-thumbnail item-start>
+                    <img src="assets/img/teslalsp.jpg">
+                </ion-thumbnail>
+                <ion-input type="text" placeholder="Write a caption..."></ion-input>
+
+            </ion-item>
+        </ion-list>
+
+        <ion-item>
+            <ion-input type="text" placeholder="Brand"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-input type="text" placeholder="Model"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-input type="text" placeholder="Color"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-input type="text" placeholder="License Plate No."></ion-input>
+        </ion-item>
+
+    </ion-list>
 
 </ion-content>

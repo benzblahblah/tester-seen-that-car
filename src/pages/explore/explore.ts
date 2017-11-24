@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PlaceholderPage } from '../placeholder/placeholder';
 
 /**
  * Generated class for the ExplorePage page.
@@ -20,6 +21,10 @@ export class ExplorePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ExplorePage');
+  }
+
+  gotoplaceh() {
+    this.navCtrl.push(PlaceholderPage);
   }
 
 }
